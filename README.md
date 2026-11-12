@@ -41,8 +41,6 @@ There is no login or signup in this app — anyone who opens the page can post, 
 
 3. Open http://localhost:3000, add a message, and try the thumbs-up, thumbs-down, and trash icons.
 
-**Database:** `server.js` has a hardcoded MongoDB connection string for the shared 100Devs demo cluster (`demo` database, username and password both `demo`, collection `messages`). It works as-is for trying the demo, but for your own data, replace that URL with your own connection string — ideally read from an environment variable instead of hardcoding it. This project has no dotenv setup.
-
 ## Project structure
 
 ```
